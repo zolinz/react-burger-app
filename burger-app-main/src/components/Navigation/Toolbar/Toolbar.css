@@ -1,7 +1,7 @@
-.Toolbar{
+.Toolbar {
     height: 56px;
     width: 100%;
-    position:fixed;
+    position: fixed;
     top: 0;
     left: 0;
     background-color: #703B09;
@@ -13,7 +13,16 @@
     z-index: 90;
 }
 
-
-.Toolbar nav{
+.Toolbar nav {
     height: 100%;
+}
+
+.Logo {
+    height: 80%;
+}
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
 }
